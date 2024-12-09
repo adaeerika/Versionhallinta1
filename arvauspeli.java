@@ -8,6 +8,10 @@ public class arvauspeli {
         int maxYritykset = 5;
         Scanner scanner = new Scanner(System.in);
 
-        
+        while (arvauksia < maxYritykset) {
+            System.out.print("Arvaa nimi (tai kirjoita 'loppu' lopettaaksesi pelin): ");
+            String arvaus = scanner.nextLine();
+            arvauksia++;
+        }
     }
 }
